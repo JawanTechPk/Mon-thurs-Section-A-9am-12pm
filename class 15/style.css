@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: grey;
+    display: flex;
+    justify-content: space-around   ;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* flex-flow:column wrap ; */
+    /* flex-shrink: ; */
+}
+
+.div1 , .div2 , .div3{
+    /* width: 200px; */
+    height: 200px;
+    margin: 10px 0;
+    flex-basis: 200px;
+
+}
+.div1{
+    background-color: red;
+    /* flex-shrink: 0; */
+    order: 3;
+}
+
+.div2{
+    background-color: lawngreen;
+    /* flex-shrink: 0; */
+    order: 1;
+
+}
+
+
+
+.div3{
+    background-color: lightsalmon;
+    /* flex-shrink: 0; */
+    order: 2;
+}

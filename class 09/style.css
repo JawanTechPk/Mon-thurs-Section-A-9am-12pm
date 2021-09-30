@@ -1,0 +1,106 @@
+h1{
+    background-color:royalblue;
+    /* color: blue; */
+    /* text-shadow: 10px 10px 2px lightgrey; */
+    text-align: right;
+}
+
+.para1{
+    color: blue;
+    background-color: gray;
+    vertical-align: text-top;
+}
+#p1{
+    font-size: 22px ;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: lowercase;
+    line-height:1.5em;
+    /* word-spacing: 1.3em; */
+    text-indent: 3em;
+}
+
+.para1::first-line{
+    color: red;
+    /* font-size: 30px; */
+}
+
+
+/* ///CHILD SELECTOR/// */
+#p1 span{
+    text-transform: uppercase;
+    color: red;
+    font-style: normal;
+    background-color: grey;
+    text-decoration:  blue;
+    
+
+}
+
+/* type SElector */
+
+
+/* .newPara::first-letter{
+    background-color: brown;
+    text-align: center;
+    color: red;
+} */
+
+
+.newPara img{
+    width: 200px;
+}
+
+.anchorTag{
+    background-color: red;
+    text-align: center;
+}
+.anchorBox{
+    background-color: salmon;
+    text-align: center;
+}
+
+
+.anchorContainer a{
+        color: black;
+        text-decoration: none;
+}   
+.anchorContainer a:hover{
+    color: green;
+}
+
+.anchorContainer a:visited{
+    color: gold !important;
+}
+
+.anchorContainer a:active{
+    color: purple;
+}
+
+.input1{
+    background-color: gray;
+}
+.input1:focus{
+    background-color: red;
+}
+
+.btn{
+    background-color: lightgreen;
+}
+.btn:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.newpara1{
+    background-color: grey;
+}
+
+.newpara1::first-letter{
+        color: red;
+}
+
+.newpara1::first-line{
+    color: blue;
+}

@@ -1,0 +1,27 @@
+/* *{
+    color: blue;
+} */
+
+/* ///TYPE SELECTOR/// */
+/* p{
+    color: red;
+}
+
+.styles{
+    color: purple;
+    font-family: monospace;
+}
+#para1{
+    color: saddlebrown;
+}
+
+.orderList a{
+    color: red;
+} */
+
+.p1{
+    color: red;
+}
+p{
+    color: blue !important;
+}

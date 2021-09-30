@@ -1,0 +1,19 @@
+/* ///TYPE SELECTOR/// */
+h5{
+    color: royalblue;
+    background-color:rgba(255,0,0,0.3);
+    font-size:3em ;
+    font-family: monospace;  
+}
+
+/* ///class selector// */
+.para1{
+    color: #d22d2d;
+    background-color: #0099FF;
+}
+#para{
+    background-color: #C8C8C8;
+    background-color: hsl(0,0%,78%);
+    font-weight: bold;
+    font-style: italic;
+}

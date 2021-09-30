@@ -1,0 +1,22 @@
+.myDiv{
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+}
+
+.submitBtn{
+    background-color: blue !important ;
+}
+.submitBtn:hover{
+    background-color: red !important;
+}
+
+.myNavbar{
+    background-color: cornflowerblue;
+}
+
+@media only screen and (max-width:300px){
+    .sliderPointer{
+        display: none !important;
+    }
+}
