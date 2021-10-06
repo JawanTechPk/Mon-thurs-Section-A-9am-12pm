@@ -1,0 +1,17 @@
+.nav{
+    width: 100%;
+    background-color: royalblue;
+    position: sticky;
+    top: 0;   
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fixedContainer{
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
